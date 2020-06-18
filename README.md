@@ -1,24 +1,19 @@
 # techno-cursos
 
+## You need json-server installed
+```
+npm install -g json-server
+```
+
 ## Project setup
 ```
 npm install
+
 ```
 
-### Compiles and hot-reloads for development
+### For run project
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
+1. json-server --watch db/api.json
+2. npm run serve
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
